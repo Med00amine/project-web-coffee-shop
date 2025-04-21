@@ -261,6 +261,23 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <div class="image">
+                                    <img src="assets/images/gallery1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <h3 class="gallery-title">Picture 4</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="image">
                                     <img src="assets/images/gallery4.webp" alt="">
                                 </div>
                                 <div class="content">
@@ -289,23 +306,6 @@
                                         <i class="fas fa-star-half-alt"></i>
                                     </div>
                                     <h3 class="gallery-title">Picture 5</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="box">
-                                <div class="image">
-                                    <img src="assets/images/gallery6.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <div class="stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                    <h3 class="gallery-title">Picture 6</h3>
                                 </div>
                             </div>
                         </div>
@@ -435,6 +435,24 @@
             </div>
         </section>
 
+        <!-- CONTACT US SECTION -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact</span> Us</h1>
+            <div class="row">
+                <div id="map" class="map pull-left"></div>
+                <form name="contact" method="POST" >
+                    <h3> Get in touch with us!</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" placeholder="Enter your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Contact Now</button>
+                </form>
+            </div>
+        </section>
 
         <!-- FOOTER SECTION -->
         <section class="footer">
@@ -465,6 +483,14 @@
                     <a href="#">Partnership</a>
                     <a href="#">Suppliers</a>
                 </div>
+                <div class="newsletters">
+                    <h2>Newsletters</h2>
+                    <br /> 
+                    <p>Subscribe to our newsletter for news and updates!</p>
+                    <div class="input-wrapper">
+                        <input type="email" class="newsletter" placeholder="Your email address">
+                        <i id="paper-plane-icon" class="fas fa-paper-plane"></i>
+                    </div>
                 </div>
                 <div class="credit">
                     <hr /><br/>
@@ -474,6 +500,41 @@
             </div>
         </section>
 
+        <!-- CHAT BAR BLOCK -->
+        <div class="chat-bar-collapsible">
+            <button id="chat-button" type="button" class="collapsible">Chat with us! &nbsp;
+                <i id="chat-icon" style="color: #fff;" class="fas fa-comments"></i>
+            </button>
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                            </div>
+                            <!-- User input box -->
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="textInput" class="input-box" type="text" name="msg"
+                                        placeholder="Tap 'Enter' to send a message">
+                                    <p></p>
+                                </div>
+                                <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-paper-plane"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- JS File Link -->
         <script src="assets/js/responses.js"></script>
