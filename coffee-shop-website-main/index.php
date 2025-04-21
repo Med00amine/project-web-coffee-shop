@@ -373,67 +373,6 @@
             </div>
         </section>
 
-        <!-- TESTIMONIALS SECTION -->
-        <section class="review" id="review">
-            <h1 class="heading"><span>Testimo</span>nials</h1>
-            <div class="box-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="box">
-                                <img src="assets/images/quote-img.png" alt="" class="quote">
-                                <p>
-                                 Highly recommended!
-                                </p>
-                                <img src="assets/images/pic-1.jpg" alt="" class="user">
-                                <h3>Ayhem Charbib</h3>
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="box">
-                                <img src="assets/images/quote-img.png" alt="" class="quote">
-                                <p>
-                                 Amazing experience!
-                                </p>
-                                <img src="assets/images/pic-2.jpg" alt="" class="user">
-                                <h3>Wassim Zargouni</h3>
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="box">
-                                <img src="assets/images/quote-img.png" alt="" class="quote">
-                                <p>
-                                 I didn’t expect it to be this good. Super happy with my purchase!
-                                </p>
-                                <img src="assets/images/pic-3.jpg" alt="" class="user">
-                                <h3>Rayen Rezgui</h3>
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-        </section>
 
 
         <!-- FOOTER SECTION -->

@@ -297,24 +297,7 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <div class="image">
-                                    <img src="../assets/images/gallery4.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <div class="stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                    <h3 class="gallery-title">Picture 4</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="box">
-                                <div class="image">
-                                    <img src="../assets/images/gallery4.jpg" alt="">
+                                    <img src="../assets/images/gallery4.webp" alt="">
                                 </div>
                                 <div class="content">
                                     <div class="stars">
@@ -342,6 +325,23 @@
                                         <i class="fas fa-star-half-alt"></i>
                                     </div>
                                     <h3 class="gallery-title">Picture 5</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="image">
+                                    <img src="../assets/images/gallery6.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <h3 class="gallery-title">Picture 6</h3>
                                 </div>
                             </div>
                         </div>
@@ -470,26 +470,6 @@
                 </div>  
             </div>
         </section>
-
-        <!-- CONTACT US SECTION -->
-        <section class="contact" id="contact">
-            <h1 class="heading"><span>Contact</span> Us</h1>
-            <div class="row">
-                <div id="map" class="map pull-left"></div>
-                <form name="contact" method="POST" action="https://formspree.io/f/xayzavgb">
-                    <h3> Get in touch with us!</h3>
-                    <div class="inputBox">
-                        <span class="fas fa-envelope"></span>
-                        <input type="email" name="email" placeholder="Email Address">
-                    </div>
-                    <div class="inputBox">
-                        <textarea name="message" placeholder="Enter your message..."></textarea>
-                    </div>
-                    <button type="submit" class="btn">Contact Now</button>
-                </form>
-            </div>
-        </section>
-
         <!-- FOOTER SECTION -->
         <section class="footer">
             <div class="footer-container">
