@@ -193,5 +193,5 @@ function updateTotal() {
     }
         total = Math.round(total * 100) / 100;
         
-        document.getElementsByClassName("total-price")[0].innerText = "₱" + total;
+        document.getElementsByClassName("total-price")[0].innerText = "TND" + total;
 }
